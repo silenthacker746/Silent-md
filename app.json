@@ -1,0 +1,18 @@
+{
+  "name": "♥️𝑺𝑰𝑳𝑬𝑵𝑻 𝑯𝑨𝑪𝑲𝑬𝑹 𝑷𝑨𝑰𝑹♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://files.catbox.moe/prkkzj.png",
+  "repository": "https://github.com/silenthacker746/Silent-md",
+  "keywords": ["@SilentHacker746"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || 𝑺𝑰𝑳𝑬𝑵𝑻 𝑯𝑨𝑪𝑲𝑬𝑹 𝑶𝑭𝑭𝑰𝑪𝑬𝑳 🔰",
+      "required": false 
+    }
+  }
+}
